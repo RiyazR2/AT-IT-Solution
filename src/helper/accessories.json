@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "Name": "Logitech MX Master 3",
+        "Type": "Mouse",
+        "Price": "7000 INR",
+        "Features": "Wireless, Ergonomic, Multi-Device",
+        "Connectivity": "Bluetooth, USB Receiver",
+        "Warranty": "1 Year"
+    },
+    {
+        "id": 2,
+        "Name": "Razer BlackWidow V3",
+        "Type": "Keyboard",
+        "Price": "12000 INR",
+        "Features": "Mechanical, RGB Backlit, Wired",
+        "Connectivity": "USB",
+        "Warranty": "2 Years"
+    },
+    {
+        "id": 3,
+        "Name": "Dell UltraSharp U2723QE",
+        "Type": "Monitor",
+        "Price": "50000 INR",
+        "Features": "27-inch, 4K UHD, IPS Panel",
+        "Connectivity": "HDMI, DisplayPort, USB-C",
+        "Warranty": "3 Years"
+    },
+    {
+        "id": 4,
+        "Name": "Seagate Backup Plus Slim 1TB",
+        "Type": "External Storage",
+        "Price": "4500 INR",
+        "Features": "Portable, Slim Design, USB 3.0",
+        "Connectivity": "USB",
+        "Warranty": "2 Years"
+    },
+    {
+        "id": 5,
+        "Name": "Jabra Evolve2 65",
+        "Type": "Headset",
+        "Price": "18000 INR",
+        "Features": "Wireless, Noise-Cancelling, USB-C",
+        "Connectivity": "Bluetooth, USB-C",
+        "Warranty": "2 Years"
+    },
+    {
+        "id": 6,
+        "Name": "Anker PowerExpand 8-in-1 Hub",
+        "Type": "Docking Station",
+        "Price": "8000 INR",
+        "Features": "8 Ports, HDMI, USB-C, Ethernet",
+        "Connectivity": "USB-C",
+        "Warranty": "1 Year"
+    },
+    {
+        "id": 7,
+        "Name": "Corsair MM700 RGB",
+        "Type": "Mouse Pad",
+        "Price": "3500 INR",
+        "Features": "RGB Lighting, Extended Size",
+        "Connectivity": "USB",
+        "Warranty": "1 Year"
+    },
+    {
+        "id": 8,
+        "Name": "Logitech C920 HD Pro",
+        "Type": "Webcam",
+        "Price": "9500 INR",
+        "Features": "1080p, Autofocus, Stereo Microphone",
+        "Connectivity": "USB",
+        "Warranty": "2 Years"
+    },
+    {
+        "id": 9,
+        "Name": "APC Back-UPS BX600C-IN",
+        "Type": "UPS",
+        "Price": "4000 INR",
+        "Features": "600VA, Surge Protection",
+        "Connectivity": "Power Outlet",
+        "Warranty": "2 Years"
+    },
+    {
+        "id": 10,
+        "Name": "Blue Yeti USB Microphone",
+        "Type": "Microphone",
+        "Price": "14000 INR",
+        "Features": "Studio Quality, Adjustable Pickup Patterns",
+        "Connectivity": "USB",
+        "Warranty": "2 Years"
+    }
+]

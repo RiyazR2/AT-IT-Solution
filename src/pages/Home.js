@@ -1,5 +1,6 @@
 import React from "react";
-import Card from "../components/Card";
+
+import Products from "./Products";
 
 const Home = () => {
   return (
@@ -10,8 +11,9 @@ const Home = () => {
           Laptop and Computer Repair Services with Accessories
         </p>
       </header>
-
-      <Card />
+      <div>
+        <Products />
+      </div>
     </div>
   );
 };

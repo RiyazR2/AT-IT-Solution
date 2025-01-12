@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "Name": "HP LaserJet Pro MFP M479fdw",
+    "Type": "Printer",
+    "Price": "45000 INR",
+    "Features": "Color Laser Printer, Duplex Printing, Wireless",
+    "Connectivity": "Wi-Fi, Ethernet, USB",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 2,
+    "Name": "Canon PIXMA G3000",
+    "Type": "Printer",
+    "Price": "15000 INR",
+    "Features": "Color Ink Tank Printer, Wireless, All-in-One",
+    "Connectivity": "Wi-Fi, USB",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 3,
+    "Name": "Brother HL-L2350DW",
+    "Type": "Printer",
+    "Price": "12000 INR",
+    "Features": "Monochrome Laser Printer, Duplex Printing, Compact",
+    "Connectivity": "Wi-Fi, USB",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 4,
+    "Name": "Epson EcoTank L3150",
+    "Type": "Printer",
+    "Price": "16000 INR",
+    "Features": "Color Ink Tank Printer, Wireless, All-in-One",
+    "Connectivity": "Wi-Fi, USB",
+    "Warranty": "2 Years"
+  },
+  {
+    "id": 5,
+    "Name": "Samsung Xpress SL-M2070W",
+    "Type": "Printer",
+    "Price": "14000 INR",
+    "Features": "Monochrome Laser Printer, Wireless, All-in-One",
+    "Connectivity": "Wi-Fi, NFC, USB",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 6,
+    "Name": "Fujitsu ScanSnap iX1500",
+    "Type": "Scanner",
+    "Price": "35000 INR",
+    "Features": "Duplex Scanner, Wireless, Touch Screen",
+    "Connectivity": "Wi-Fi, USB",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 7,
+    "Name": "Epson Perfection V39",
+    "Type": "Scanner",
+    "Price": "9000 INR",
+    "Features": "Flatbed Scanner, High Resolution",
+    "Connectivity": "USB",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 8,
+    "Name": "Canon CanoScan LiDE 400",
+    "Type": "Scanner",
+    "Price": "12000 INR",
+    "Features": "Flatbed Scanner, Ultra Slim, High Resolution",
+    "Connectivity": "USB",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 9,
+    "Name": "Brother ADS-2800W",
+    "Type": "Scanner",
+    "Price": "48000 INR",
+    "Features": "Document Scanner, Wireless, Duplex",
+    "Connectivity": "Wi-Fi, Ethernet, USB",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 10,
+    "Name": "Plustek ePhoto Z300",
+    "Type": "Scanner",
+    "Price": "25000 INR",
+    "Features": "Photo Scanner, High Speed",
+    "Connectivity": "USB",
+    "Warranty": "1 Year"
+  }
+]

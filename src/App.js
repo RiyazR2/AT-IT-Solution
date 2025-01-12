@@ -4,14 +4,13 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Header from "./components/Header";
-import Products from "./pages/Products";
 
 const App = () => {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
         <Header />
-        <Products />
+
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -19,23 +18,12 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
-
       </div>
     </Router>
   );
 };
 
 export default App;
-
-
-
-
-
-
-
-
-
-
 
 // import logo from './logo.svg';
 // import './App.css';

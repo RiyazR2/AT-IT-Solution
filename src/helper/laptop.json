@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "Name": "Dell XPS 15",
+    "Price": "45000 INR",
+    "Processor": "Intel Core i7",
+    "ScreenSize": "15.6\"",
+    "Storage": "512GB SSD",
+    "RAM": "16GB"
+  },
+  {
+    "id": 2,
+    "Name": "Apple MacBook Air M1",
+    "Price": "92000 INR",
+    "Processor": "Apple M1",
+    "ScreenSize": "13.3\"",
+    "Storage": "256GB SSD",
+    "RAM": "8GB"
+  },
+  {
+    "id": 3,
+    "Name": "HP Spectre x360",
+    "Price": "75000 INR",
+    "Processor": "Intel Core i5",
+    "ScreenSize": "14\"",
+    "Storage": "512GB SSD",
+    "RAM": "16GB"
+  },
+  {
+    "id": 4,
+    "Name": "Lenovo ThinkPad X1 Carbon",
+    "Price": "98000 INR",
+    "Processor": "Intel Core i7",
+    "ScreenSize": "14\"",
+    "Storage": "1TB SSD",
+    "RAM": "16GB"
+  },
+  {
+    "id": 5,
+    "Name": "Asus ROG Zephyrus G14",
+    "Price": "88000 INR",
+    "Processor": "AMD Ryzen 9",
+    "ScreenSize": "14\"",
+    "Storage": "1TB SSD",
+    "RAM": "16GB"
+  },
+  {
+    "id": 6,
+    "Name": "Acer Predator Helios 300",
+    "Price": "95000 INR",
+    "Processor": "Intel Core i7",
+    "ScreenSize": "15.6\"",
+    "Storage": "1TB SSD",
+    "RAM": "16GB"
+  },
+  {
+    "id": 7,
+    "Name": "Microsoft Surface Laptop 4",
+    "Price": "85000 INR",
+    "Processor": "AMD Ryzen 7",
+    "ScreenSize": "13.5\"",
+    "Storage": "512GB SSD",
+    "RAM": "16GB"
+  },
+  {
+    "id": 8,
+    "Name": "Razer Blade 15",
+    "Price": "120000 INR",
+    "Processor": "Intel Core i9",
+    "ScreenSize": "15.6\"",
+    "Storage": "1TB SSD",
+    "RAM": "32GB"
+  },
+  {
+    "id": 9,
+    "Name": "LG Gram 17",
+    "Price": "105000 INR",
+    "Processor": "Intel Core i7",
+    "ScreenSize": "17\"",
+    "Storage": "1TB SSD",
+    "RAM": "16GB"
+  },
+  {
+    "id": 10,
+    "Name": "Dell Inspiron 15 5000",
+    "Price": "56000 INR",
+    "Processor": "Intel Core i5",
+    "ScreenSize": "15.6\"",
+    "Storage": "256GB SSD",
+    "RAM": "8GB"
+  }
+]

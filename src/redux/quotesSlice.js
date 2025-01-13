@@ -1,16 +1,21 @@
 // src/store/quotesSlice.js
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 const quotesSlice = createSlice({
-    name: 'quotes',
-    initialState: [
-        "The only limit to our realization of tomorrow is our doubts of today.",
-        "Success is not final; failure is not fatal: It is the courage to continue that counts.",
-        "Don't watch the clock; do what it does. Keep going.",
-        "The future belongs to those who believe in the beauty of their dreams.",
-        "Your time is limited, so don't waste it living someone else's life."
-    ],
-    reducers: {}
+  name: "quotes",
+  initialState: [
+    "Your one-stop solution for all laptop and computer needs!",
+    "Quality repairs, unbeatable prices, and trusted accessories!",
+    "Keeping your devices running like new – every time!",
+    "Fast, affordable, and professional laptop repairs – guaranteed!",
+    "Where technology meets reliability – shop with us!",
+    "For the latest tech, accessories, and expert services, visit us!",
+    "Your trusted partner for all IT solutions and accessories.",
+    "Upgrade your tech game with premium products and services.",
+    "Explore the best deals on gadgets and accessories today!",
+    "Revive your devices with expert care and top-notch service.",
+  ],
+  reducers: {},
 });
 
 export const selectQuotes = (state) => state.quotes;

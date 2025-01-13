@@ -31,100 +31,71 @@ const Products = () => {
   const { data, type } = getCategoryData();
 
   return (
-    <div className="container mx-auto my-2">
-      {/* Navigation Buttons */}
-      <div className="flex space-x-4 items-center bg-gray-400 p-2">
+    <div className="container mx-auto my-8 px-4">
+      {/* Section Title */}
+      <h1 className="text-3xl font-extrabold text-center text-gray-800 mb-8">
+        Explore Our Products
+      </h1>
+
+      {/* Category Navigation */}
+      <div className="flex flex-wrap justify-center gap-4 mb-6">
         {/* Laptop */}
-        <div className="relative group">
-          <button
-            className="bg-blue-500 text-white px-4 py-2 rounded"
-            onClick={() => setSelectedCategory("laptop")} // Update state on click
-          >
-            Laptop
-          </button>
-          <ul className="absolute left-0 bg-white shadow-lg rounded mt-2 w-40 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              Gaming Laptop
-            </li>
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              Ultrabook
-            </li>
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              Business Laptop
-            </li>
-          </ul>
-        </div>
+        <button
+          className={`px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition duration-300 ${
+            selectedCategory === "laptop"
+              ? "bg-gradient-to-r from-blue-500 to-purple-500"
+              : "bg-gray-300 hover:bg-blue-400 hover:text-white"
+          }`}
+          onClick={() => setSelectedCategory("laptop")}
+        >
+          Laptop
+        </button>
 
         {/* Desktop */}
-        <div className="relative group">
-          <button
-            className="bg-blue-500 text-white px-4 py-2 rounded"
-            onClick={() => setSelectedCategory("desktop")} // Update state on click
-          >
-            Desktop
-          </button>
-          <ul className="absolute left-0 bg-white shadow-lg rounded mt-2 w-40 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              Gaming Desktop
-            </li>
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              All-in-One
-            </li>
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              Workstation
-            </li>
-          </ul>
-        </div>
+        <button
+          className={`px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition duration-300 ${
+            selectedCategory === "desktop"
+              ? "bg-gradient-to-r from-blue-500 to-purple-500"
+              : "bg-gray-300 hover:bg-blue-400 hover:text-white"
+          }`}
+          onClick={() => setSelectedCategory("desktop")}
+        >
+          Desktop
+        </button>
 
         {/* Printer/Scanner */}
-        <div className="relative group">
-          <button
-            className="bg-blue-500 text-white px-4 py-2 rounded"
-            onClick={() => setSelectedCategory("printerScanner")} // Update state on click
-          >
-            Printer/Scanner
-          </button>
-          <ul className="absolute left-0 bg-white shadow-lg rounded mt-2 w-40 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              Inkjet Printer
-            </li>
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              Laser Printer
-            </li>
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              Scanner
-            </li>
-          </ul>
-        </div>
+        <button
+          className={`px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition duration-300 ${
+            selectedCategory === "printerScanner"
+              ? "bg-gradient-to-r from-blue-500 to-purple-500"
+              : "bg-gray-300 hover:bg-blue-400 hover:text-white"
+          }`}
+          onClick={() => setSelectedCategory("printerScanner")}
+        >
+          Printer/Scanner
+        </button>
 
         {/* Accessories */}
-        <div className="relative group">
-          <button
-            className="bg-blue-500 text-white px-4 py-2 rounded"
-            onClick={() => setSelectedCategory("accessory")} // Update state on click
-          >
-            Accessories
-          </button>
-          <ul className="absolute left-0 bg-white shadow-lg rounded mt-2 w-40 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              Keyboards
-            </li>
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Mice</li>
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              Monitors
-            </li>
-          </ul>
-        </div>
-
-        {/* Marquee */}
-        <div className="flex-1 bg-gray-100 rounded-lg">
-          <Marquee />
-        </div>
+        <button
+          className={`px-6 py-3 rounded-lg shadow-lg text-white font-semibold transition duration-300 ${
+            selectedCategory === "accessory"
+              ? "bg-gradient-to-r from-blue-500 to-purple-500"
+              : "bg-gray-300 hover:bg-blue-400 hover:text-white"
+          }`}
+          onClick={() => setSelectedCategory("accessory")}
+        >
+          Accessories
+        </button>
       </div>
 
-      {/* Render Products */}
-      <div className="my-6">
-        <Card data={data} type={type} /> {/* Pass data and type to Card */}
+      {/* Marquee Section */}
+      <div className="mb-8">
+        <Marquee />
+      </div>
+
+      {/* Product Cards */}
+      <div>
+        <Card data={data} type={type} />
       </div>
     </div>
   );

@@ -10,6 +10,72 @@ const getImage = (id, type) => {
   }
 };
 
+const renderDetails = (item, type) => {
+  switch (type) {
+    case "laptop":
+      return (
+        <>
+          <p className="text-gray-600">
+            <strong>Processor:</strong> {item.Processor}
+          </p>
+          <p className="text-gray-600">
+            <strong>RAM:</strong> {item.RAM}
+          </p>
+          <p className="text-gray-600">
+            <strong>Storage:</strong> {item.Storage}
+          </p>
+          <p className="text-gray-600">
+            <strong>Screen Size:</strong> {item.ScreenSize}
+          </p>
+        </>
+      );
+    case "desktop":
+      return (
+        <>
+          <p className="text-gray-600">
+            <strong>Processor:</strong> {item.Processor}
+          </p>
+          <p className="text-gray-600">
+            <strong>RAM:</strong> {item.RAM}
+          </p>
+          <p className="text-gray-600">
+            <strong>Storage:</strong> {item.Storage}
+          </p>
+        </>
+      );
+    case "printerScanner":
+      return (
+        <>
+          <p className="text-gray-600">
+            <strong>Type:</strong> {item.Type}
+          </p>
+          <p className="text-gray-600">
+            <strong>Features:</strong> {item.Features}
+          </p>
+          <p className="text-gray-600">
+            <strong>Connectivity:</strong> {item.Connectivity}
+          </p>
+        </>
+      );
+    case "accessory":
+      return (
+        <>
+          <p className="text-gray-600">
+            <strong>Type:</strong> {item.Type}
+          </p>
+          <p className="text-gray-600">
+            <strong>Features:</strong> {item.Features}
+          </p>
+          <p className="text-gray-600">
+            <strong>Connectivity:</strong> {item.Connectivity}
+          </p>
+        </>
+      );
+    default:
+      return null;
+  }
+};
+
 const Card = ({ data, type }) => {
   return (
     <div className="container mx-auto my-6">
@@ -29,11 +95,7 @@ const Card = ({ data, type }) => {
               <p className="text-gray-600">
                 <strong>Price:</strong> {item.Price}
               </p>
-              {item.Type && (
-                <p className="text-gray-600">
-                  <strong>Type:</strong> {item.Type}
-                </p>
-              )}
+              {renderDetails(item, type)}
             </div>
           </div>
         ))}

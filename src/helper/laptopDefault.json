@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "Name": "Dell XPS 15",
+    "Price": "45000 INR",
+    "Processor": "Intel Core i7",
+    "ScreenSize": "15.6\"",
+    "Storage": "512GB SSD",
+    "RAM": "16GB",
+    "Graphics": "NVIDIA GeForce GTX 1650",
+    "BatteryLife": "10 hours",
+    "Weight": "1.8kg"
+  },
+  {
+    "id": 2,
+    "Name": "Apple MacBook Air M1",
+    "Price": "92000 INR",
+    "Processor": "Apple M1",
+    "ScreenSize": "13.3\"",
+    "Storage": "256GB SSD",
+    "RAM": "8GB",
+    "Graphics": "Apple Integrated Graphics",
+    "BatteryLife": "15 hours",
+    "Weight": "1.25kg"
+  },
+  {
+    "id": 3,
+    "Name": "HP Spectre x360",
+    "Price": "75000 INR",
+    "Processor": "Intel Core i5",
+    "ScreenSize": "14\"",
+    "Storage": "512GB SSD",
+    "RAM": "16GB",
+    "Graphics": "Intel Iris Xe",
+    "BatteryLife": "12 hours",
+    "Weight": "1.32kg"
+  },
+  {
+    "id": 4,
+    "Name": "Lenovo ThinkPad X1 Carbon",
+    "Price": "98000 INR",
+    "Processor": "Intel Core i7",
+    "ScreenSize": "14\"",
+    "Storage": "1TB SSD",
+    "RAM": "16GB",
+    "Graphics": "Intel Iris Xe",
+    "BatteryLife": "14 hours",
+    "Weight": "1.09kg"
+  },
+  {
+    "id": 5,
+    "Name": "Asus ROG Zephyrus G14",
+    "Price": "88000 INR",
+    "Processor": "AMD Ryzen 9",
+    "ScreenSize": "14\"",
+    "Storage": "1TB SSD",
+    "RAM": "16GB",
+    "Graphics": "NVIDIA GeForce RTX 3060",
+    "BatteryLife": "9 hours",
+    "Weight": "1.7kg"
+  },
+  {
+    "id": 6,
+    "Name": "Acer Predator Helios 300",
+    "Price": "95000 INR",
+    "Processor": "Intel Core i7",
+    "ScreenSize": "15.6\"",
+    "Storage": "1TB SSD",
+    "RAM": "16GB",
+    "Graphics": "NVIDIA GeForce RTX 3070",
+    "BatteryLife": "8 hours",
+    "Weight": "2.3kg"
+  },
+  {
+    "id": 7,
+    "Name": "Microsoft Surface Laptop 4",
+    "Price": "85000 INR",
+    "Processor": "AMD Ryzen 7",
+    "ScreenSize": "13.5\"",
+    "Storage": "512GB SSD",
+    "RAM": "16GB",
+    "Graphics": "AMD Radeon Vega",
+    "BatteryLife": "13 hours",
+    "Weight": "1.27kg"
+  },
+  {
+    "id": 8,
+    "Name": "Razer Blade 15",
+    "Price": "120000 INR",
+    "Processor": "Intel Core i9",
+    "ScreenSize": "15.6\"",
+    "Storage": "1TB SSD",
+    "RAM": "32GB",
+    "Graphics": "NVIDIA GeForce RTX 3080",
+    "BatteryLife": "7 hours",
+    "Weight": "2.1kg"
+  },
+  {
+    "id": 9,
+    "Name": "LG Gram 17",
+    "Price": "105000 INR",
+    "Processor": "Intel Core i7",
+    "ScreenSize": "17\"",
+    "Storage": "1TB SSD",
+    "RAM": "16GB",
+    "Graphics": "Intel Iris Xe",
+    "BatteryLife": "17 hours",
+    "Weight": "1.35kg"
+  },
+  {
+    "id": 10,
+    "Name": "Dell Inspiron 15 5000",
+    "Price": "56000 INR",
+    "Processor": "Intel Core i5",
+    "ScreenSize": "15.6\"",
+    "Storage": "256GB SSD",
+    "RAM": "8GB",
+    "Graphics": "Intel UHD Graphics",
+    "BatteryLife": "6 hours",
+    "Weight": "1.83kg"
+  }
+]

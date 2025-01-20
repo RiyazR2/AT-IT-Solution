@@ -23,11 +23,11 @@ const Header = () => {
         </div>
 
         {/* Desktop Navigation Links */}
-        <ul className="hidden md:flex space-x-8 text-lg font-medium">
+        <ul className=" md:flex space-x-8 text-lg font-medium">
           <li>
             <Link
               to="/"
-              className="hover:text-yellow-300 transition-colors duration-300 hover:underline decoration-2 decoration-yellow-300"
+              className="hover:text-yellow-300 transition duration-300"
             >
               Home
             </Link>
@@ -35,7 +35,7 @@ const Header = () => {
           <li>
             <Link
               to="/about"
-              className="hover:text-yellow-300 transition-colors duration-300 hover:underline decoration-2 decoration-yellow-300"
+              className="hover:text-yellow-300 transition duration-300"
             >
               About
             </Link>
@@ -43,7 +43,7 @@ const Header = () => {
           <li>
             <Link
               to="/contact"
-              className="hover:text-yellow-300 transition-colors duration-300 hover:underline decoration-2 decoration-yellow-300"
+              className="hover:text-yellow-300 transition duration-300"
             >
               Contact
             </Link>
@@ -53,7 +53,7 @@ const Header = () => {
         {/* Call-to-Action Button */}
         <Link
           to="/contact"
-          className="hidden md:inline-block bg-yellow-400 text-blue-800 px-5 py-2 rounded-full font-semibold shadow-lg hover:bg-yellow-300 hover:scale-110 transition-transform duration-300"
+          className=" md:inline-block bg-yellow-400 text-blue-800 px-5 py-2 rounded-full font-semibold shadow-lg hover:bg-yellow-300 hover:scale-110 transition-transform duration-300"
         >
           Get in Touch
         </Link>
@@ -76,7 +76,7 @@ const Header = () => {
                 <Link
                   to="/"
                   onClick={() => setIsMenuOpen(false)}
-                  className="hover:text-yellow-300 transition-colors duration-300 hover:underline decoration-2 decoration-yellow-300"
+                  className="hover:text-yellow-300 transition-colors duration-300"
                 >
                   Home
                 </Link>
@@ -85,7 +85,7 @@ const Header = () => {
                 <Link
                   to="/about"
                   onClick={() => setIsMenuOpen(false)}
-                  className="hover:text-yellow-300 transition-colors duration-300 hover:underline decoration-2 decoration-yellow-300"
+                  className="hover:text-yellow-300 transition-colors duration-300"
                 >
                   About
                 </Link>
@@ -94,7 +94,7 @@ const Header = () => {
                 <Link
                   to="/contact"
                   onClick={() => setIsMenuOpen(false)}
-                  className="hover:text-yellow-300 transition-colors duration-300 hover:underline decoration-2 decoration-yellow-300"
+                  className="hover:text-yellow-300 transition-colors duration-300"
                 >
                   Contact
                 </Link>

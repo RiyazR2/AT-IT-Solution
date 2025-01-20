@@ -1,6 +1,10 @@
 import React from "react";
 
-const images = require.context("../assets/images", false, /\.(jpg|png|jpeg)$/);
+const images = require.context(
+  "../assets/images/Laptop",
+  false,
+  /\.(jpg|png|jpeg)$/
+);
 
 const getImage = (id, type) => {
   try {
@@ -15,16 +19,16 @@ const renderDetails = (item, type) => {
     case "laptop":
       return (
         <>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-sm">
             <strong>Processor:</strong> {item.Processor}
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-sm">
             <strong>RAM:</strong> {item.RAM}
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-sm">
             <strong>Storage:</strong> {item.Storage}
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-sm">
             <strong>Screen Size:</strong> {item.ScreenSize}
           </p>
         </>
@@ -32,13 +36,13 @@ const renderDetails = (item, type) => {
     case "desktop":
       return (
         <>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-sm">
             <strong>Processor:</strong> {item.Processor}
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-sm">
             <strong>RAM:</strong> {item.RAM}
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-sm">
             <strong>Storage:</strong> {item.Storage}
           </p>
         </>
@@ -46,13 +50,13 @@ const renderDetails = (item, type) => {
     case "printerScanner":
       return (
         <>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-sm">
             <strong>Type:</strong> {item.Type}
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-sm">
             <strong>Features:</strong> {item.Features}
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-sm">
             <strong>Connectivity:</strong> {item.Connectivity}
           </p>
         </>
@@ -60,13 +64,13 @@ const renderDetails = (item, type) => {
     case "accessory":
       return (
         <>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-sm">
             <strong>Type:</strong> {item.Type}
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-sm">
             <strong>Features:</strong> {item.Features}
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-sm">
             <strong>Connectivity:</strong> {item.Connectivity}
           </p>
         </>
@@ -78,24 +82,35 @@ const renderDetails = (item, type) => {
 
 const Card = ({ data, type }) => {
   return (
-    <div className="container mx-auto my-6">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <div className="container mx-auto my-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {data.map((item) => (
           <div
             key={item.id}
-            className="bg-gradient-to-r from-gray-100 to-gray-200 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300"
+            className="bg-white rounded-xl shadow-md hover:shadow-lg transform hover:translate-y-[-5px] transition duration-300 border border-gray-300 overflow-hidden"
           >
-            <img
-              src={getImage(item.id, type)}
-              alt={item.Name}
-              className="w-full h-48 object-cover rounded-t-lg"
-            />
-            <div className="p-4">
-              <h3 className="text-lg font-bold text-gray-800">{item.Name}</h3>
-              <p className="text-gray-600">
+            <div className="relative">
+              <img
+                src={getImage(item.id, type)}
+                alt={item.Name}
+                className="w-full h-80 object-cover"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                {item.Name}
+              </h3>
+
+              {renderDetails(item, type)}
+              <p className="text-gray-600 text-sm">
                 <strong>Price:</strong> {item.Price}
               </p>
-              {renderDetails(item, type)}
+              <button className=" mt-6 w-full py-2 bg-gray-800 text-white text-sm rounded-lg hover:bg-gray-700 transition duration-200">
+                <p>
+                  For More Details:{" "}
+                  <span className="font-bold ml-8">9272003194</span>
+                </p>
+              </button>
             </div>
           </div>
         ))}
